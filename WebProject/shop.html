@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boots For You</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="icon" href="images/logo.jpg">
+  </head>
+  <body>
+    <header>
+        <img class="logo" src="Images/logo.jpg" alt="logo">
+        <div id="brand"><a href="index.html">Boots For You</a></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="checkout.html"><button type="button" class="btn btn-secondary ml-2">
+            Checkout <span class="badge badge-light" id="checkout"></span>
+          </button>
+          </a>
+        </li>
+        <li id="login"><a href="login.html" >Login</a></li>
+        </ul>
+      </nav>
+      <!--navbar for mobile version-->
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="checkout.html"><button type="button" class="btn btn-secondary ml-2">
+                Checkout <span class="badge badge-light" id="checkout"></span>
+              </button>
+              </a>
+            </li>
+            <li id="login"><a href="login.html" >Login</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+        <section id="section2">
+            <h3 id="h3Txt">
+                View Our Range
+            </h3>
+        </section>
+        <section id="timer">
+            <p id="timerTxt"><strong>New Year Sale Ends In</strong></p>
+            <p id="Countdown"></p>
+        </section>
+        <hr>
+        <section>
+        <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Mercurial Vapor 14 Elite</h5>
+                    <img class="image" src="Images/NikeVapor14.jpg"/>
+                    <p class="card-text">White</p>
+                    <p class="price">€159.99</p>
+                    <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+              </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Adidas Predator X Nemeziz</h5>
+                    <img class="image" src="Images/AdidasBoots.jpeg"/>
+                    <p class="card-text">White/Multicolor</p>
+                    <p class="price">€145.99</p>
+                    <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+              </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Nike Mercurial Air Zoom Superfly IX</h5>
+                    <img class="image" src="Images/NikeSuperfly.jpg"/>
+                    <p class="card-text">Blue/White/Red</p>
+                    <p class="price">€179.99</p>
+                    <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+              </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">New Balance Furon V6+ Pro</h5>
+                    <img class="image" src="Images/NewBalance.jpg"/>
+                    <p class="card-text">Orange</p>
+                    <p class="price">€129.99</p>
+                    <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+              </div>
+            </div>
+            </div>
+        </section>
+        <br>
+        <section>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Puma Ultra 1.2 FG Ultimate </h5>
+                        <img class="image" src="Images/pumaUltra.jpg"/>
+                        <p class="card-text">Orange/Black</p>
+                        <p class="price">€139.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">New Balance Furon V7 Pro</h5>
+                        <img class="image" src="Images/newBalancev7.jpeg"/>
+                        <p class="card-text">Black/Gold</p>
+                        <p class="price">€159.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas X Ghosted+ FG Elite</h5>
+                        <img class="image" src="Images/adidasGhosted.jpg"/>
+                        <p class="card-text">Pink/Black/Orange</p>
+                        <p class="stock">Out Of Stock</p>
+                        <p class="price">€169.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Tiempo Legend 9 Elite FG</h5>
+                        <img class="image" src="Images/NikeTiempo.jpg"/>
+                        <p class="card-text">Black</p>
+                        <p class="price">€129.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                </div>
+                </div>
+        </section>
+
+        <br>
+        <section>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Phantom GT2 Elite FG </h5>
+                        <img class="image" src="Images/phantom.jpg"/>
+                        <p class="card-text">Brown/Black</p>
+                        <p class="price">€199.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Under Armour CoreSpeed Pro</h5>
+                        <img class="image" src="Images/UnderArmour.jpg"/>
+                        <p class="card-text">Blue/White</p>
+                        <p class="stock">Out Of Stock</p>
+                        <p class="price">€179.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Adidas Predator Edge+ Pro</h5>
+                        <img class="image" src="Images/AdidasPred.jpg"/>
+                        <p class="card-text">Blue/Orange</p>
+                        <p class="price">€174.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">New Balance Furon V7 Pro</h5>
+                        <img class="image" src="Images/newBalanceWhite.jpg"/>
+                        <p class="card-text">White</p>
+                        <p class="price">€139.99</p>
+                        <a href="#" class="btn btn-primary addtocart" id="addtocart">Add to Cart</a>
+                  </div>
+                </div>
+                </div>
+        </section>
+    </main>
+    <hr class="rounded">
+    <footer class="footer">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            Back To Top 
+        </button>
+    </footer>
+    <footer style="position: fixed; bottom: 0; width: 100%;">&copy; 2023 Boots For You </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="shop.js"></script>
+  </body>
+</html>
